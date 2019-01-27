@@ -1,0 +1,124 @@
+# DOCKER
+# Requirements: 
+# for example: Vmware Workstation, 3 virtual machine ( CentOS ).
+
+1. Install docker on all virtual machine
+
+sudo yum check-update
+curl -fsSL https://get.docker.com/ | sh
+sudo systemctl start docker
+
+2. Verify, if docker is installed
+
+sudo systemctl status docker
+
+3. On each virtual machine, set the same network range [take from VMware settings, NAT - 192.168.52.0]
+# My settings: 1st vm - 192.168.52.10/24, 2nd - 192.168.52.11/24, 3rd - 192.168.52.12/24
+
+# allow to modyfiy next file with ip conf
+su root
+
+# Go to
+cd /etc/sysconfig/network-scripts
+# modyfi following file and set ip add, gateway, dns, optionally dns2
+
+vi ifcfg-ens33
+# After change, You have to refresh settings
+
+systemctl restart network
+#Recomend to use putty to connect (after log on, relog on root)
+
+# Using ICMP protocol, check if machines can talk (10 -> 11, 10 -> 12, 11 -> 12 and so on...)
+- Check using ICMP protokol, that machine's has connection.
+
+4. ----- OPTIONALLY ----- 
+
+# I had to remove old images & containers.
+docker rm $(docker ps -a -q)
+
+# Check if true/false
+docker ps -a
+
+# remove images
+docker rmi $(docker images -q)
+
+# check if true/fase
+docker images
+
+# check that all machines are not in cluster
+docker node ls
+
+5. Create swarm manager at first machine [192.168.52.10]
+
+docker swarm init --advertise-addr=192.168.52.10 --listen-addr 192.168.52.10:2377
+
+#(! remember following \/   to use later )
+docker swarm join --token SWMTKN-1-4u3qbchvnoc19qs448ri4s2jlcb3sjvsj5v7n27q3q4fg572s1-5dlxck86xff4h4whf90lalc98 192.168.52.10:2377 -and after allow ports, copy on other nodes
+
+# check if T/F
+docker node ls
+
+# Now, open ports on firewall ( at the main machine / set "random" ports)
+firewall-cmd --zone=public --add-port=2377/tcp --permanent
+
+# Restart firewall-service
+firewall-cmd --reload
+
+# Check if it works property
+firewall-cmd --list-all
+
+# GO TO machine2, machine3 and pass this command to join to cluster mentioned machines. ( As i mentioned earlier, You had to remember this line with "token" ).
+
+docker swarm join --token SWMTKN-1-4u3qbchvnoc19qs448ri4s2jlcb3sjvsj5v7n27q3q4fg572s1-5dlxck86xff4h4whf90lalc98 192.168.52.10:2377 -and after allow ports, copy on other nodes
+
+# BACK TO machine1 (manager), (it should be list of availabity)
+docker node ls   
+
+6. ----- OPTIONALLY ----- 
+
+# I had to remove old volumes
+docker volume remove <name>
+
+7. Create Volume
+# CREATING VOLUME
+docker volume create portainer_data
+
+# check if
+docker volume ls
+
+# Check if docker have any volumes
+docker volume inspect <name>
+
+# 
+docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+firewall-cmd --zone=public --add-port=9000/tcp --permanent
+firewall-cmd --reload
+docker rm $(docker ps -a -q)
+
+# I had a problems with IPv4 forwarding - solve following
+cd /etc
+vi systctl.conf
+add 'net.ipv4.ip_forward=1' at the end of lie
+
+# re
+system restart network
+docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+curl -L https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-agent-stack.yml
+docker stack deploy --compose-file=portainer-agent-stack.yml portainer
+
+# Check URL " 192.168.52.10:9000 ", should open portainer
+Go to url: 192.168.52.10:9000
+
+# Create account
+Type a password in web interface
+
+
+
+# -------------------------------- continue from here ----------------------------
+# This command return errors
+docker service create --name portainer_agent --network portainer_agent_network --publish mode=host,target=9001,published=9001 -e AGENT_CLUSTER_ADDR=tasks.portainer_agent --mode global --mount type=bind,src=//var/run/docker.sock,dst=/var/run/docker.sock --mount type=bind,src=//var/lib/docker/volumes,dst=/var/lib/docker/volumes –-mount type=bind,src=/,dst=/host portainer/agent
+
+
+
+
+
