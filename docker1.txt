@@ -2,7 +2,7 @@
 # Requirements: 
 # for example: Vmware Workstation, 3 virtual machine ( CentOS ).
 
-1. Install docker on all virtual machine
+<br>1. Install docker on all virtual machine</br>
 
 sudo yum check-update
 curl -fsSL https://get.docker.com/ | sh
