@@ -1,0 +1,14 @@
+{
+  "name": "docker-node-js",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Michal Warszczynski",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
