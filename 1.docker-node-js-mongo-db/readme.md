@@ -1,5 +1,5 @@
 # DevOps Projects 1
 
-## Dockerfile, Node Js, Mongo DB
+## Docker-compose, Node Js, Mongo DB, Reverse Proxy
 Simple application that uses the above technologies.
 

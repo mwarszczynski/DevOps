@@ -1,0 +1,11 @@
+[2019-09-01 23:21:22.959] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/michal/GIT_NOWY/DevOps/.vscode'
+[2019-09-01 23:21:22.960] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/michal/GIT_NOWY/DevOps/.vscode'
+[2019-09-01 23:23:15.016] [renderer1] [warning] UNRESPONSIVE extension host, 'ms-azuretools.vscode-docker' took 96% of 2319.841ms, saved PROFILE here: '/tmp/exthost-452c5d.cpuprofile' [{"id":"esbenp.prettier-vscode","total":15841,"percentage":1},{"id":"gc","total":73197,"percentage":3},{"id":"ms-azuretools.vscode-docker","total":2217357,"percentage":96},{"id":"program","total":4583,"percentage":0},{"id":"vincaslt.highlight-matching-tag","total":2956,"percentage":0},{"id":"vscode.merge-conflict","total":1962,"percentage":0},{"id":"vscode.typescript-language-features","total":989,"percentage":0},{"id":"Zignd.html-css-class-completion","total":2651,"percentage":0}]
+[2019-09-01 23:23:46.427] [renderer1] [error] Failed to load jshint library. Please install jshint in your workspace folder using 'npm install jshint' or globally using 'npm install -g jshint' and then press Retry.: Error: Failed to load jshint library. Please install jshint in your workspace folder using 'npm install jshint' or globally using 'npm install -g jshint' and then press Retry.
+    at new ResponseError (/home/michal/.vscode/extensions/dbaeumer.jshint-0.10.21/jshint/node_modules/vscode-jsonrpc/lib/messages.js:46:28)
+    at handleResponse (/home/michal/.vscode/extensions/dbaeumer.jshint-0.10.21/jshint/node_modules/vscode-jsonrpc/lib/main.js:430:48)
+    at processMessageQueue (/home/michal/.vscode/extensions/dbaeumer.jshint-0.10.21/jshint/node_modules/vscode-jsonrpc/lib/main.js:258:17)
+    at Immediate.<anonymous> (/home/michal/.vscode/extensions/dbaeumer.jshint-0.10.21/jshint/node_modules/vscode-jsonrpc/lib/main.js:242:13)
+    at runCallback (timers.js:694:18)
+    at tryOnImmediate (timers.js:665:5)
+    at processImmediate (timers.js:647:5)
