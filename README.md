@@ -46,4 +46,4 @@ Dla chętnych: postawić do klastra scylla manager’a do monitorowania wydajno�
 
 
 
-<img src="DevOps/blob/master/54236907_397058641085651_7782564530868977664_n.jpg">
+<img src="DevOps/54236907_397058641085651_7782564530868977664_n.jpg">
