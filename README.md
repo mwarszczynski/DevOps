@@ -24,7 +24,7 @@ Wolumen /var/lib/mysql ma być osobnym fs stworzonym w LVM;
 Baza danych musi być w sieci secure;
 Kontener dla frontendu z NodeJS;  
 
-<img src="DevOps/54236907_397058641085651_7782564530868977664_n.jpg">
+![devOps_project2](https://user-images.githubusercontent.com/23153433/64229061-02baa900-cee9-11e9-8c54-02e977bcb01b.jpg)
 
 **Exercise_3** - Stwórz plik docker-compose.yml, który:
 budować będzie obraz NGINX z Dockerfile;
