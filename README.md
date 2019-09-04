@@ -49,4 +49,6 @@ Dla chętnych -> skonfigurować SSL - certyfikat self-signed wystarczy :)
 Dla chętnych: postawić do klastra scylla manager’a do monitorowania wydajności klastra i udostępnić serwis na porcie 80 dla localhosta (https://docs.scylladb.com/operating-scylla/manager/1.3/run-in-docker/)
 
 
-**Exercise_5** -
+#An outline of my skills#
+![Skills_RoadMap](https://user-images.githubusercontent.com/23153433/64229621-8fb23200-ceea-11e9-9752-fe3c11fad893.JPG)
+
