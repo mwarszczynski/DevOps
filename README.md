@@ -22,7 +22,9 @@ Bazę mysql 5.7 z podstawową konfiguracją oraz hasłem root: KrolKarolK0ral3;
 Kontener z php-myadmin w celu wglądu do bazy danych;
 Wolumen /var/lib/mysql ma być osobnym fs stworzonym w LVM;
 Baza danych musi być w sieci secure;
-Kontener dla frontendu z NodeJS;   -------------- ZDJECIE W WORDZIE ---------------
+Kontener dla frontendu z NodeJS;  
+
+<img src="DevOps/54236907_397058641085651_7782564530868977664_n.jpg">
 
 **Exercise_3** - Stwórz plik docker-compose.yml, który:
 budować będzie obraz NGINX z Dockerfile;
@@ -43,7 +45,3 @@ Dla chętnych: postawić do klastra scylla manager’a do monitorowania wydajno�
 
 
 **Exercise_5** -
-
-
-
-<img src="DevOps/54236907_397058641085651_7782564530868977664_n.jpg">
