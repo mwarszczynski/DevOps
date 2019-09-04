@@ -1,6 +1,11 @@
 # DevOps Projects
 
 ## Main project 1
+A project i invented, which i am gradually developing step by step (picture below).
+
+![Own_big_project](https://user-images.githubusercontent.com/23153433/64229533-4eba1d80-ceea-11e9-919a-7ca654387296.jpg)
+
+## Main project 2
 Stworzenie architektury dla naszej aplikacji utworzonej w ramach przedmiotu przetwarzanie równoległe;
 Architektura prosta z wykorzystaniem wielu popularnych obecnie serwisów;
 Stworzenie klastra bazy danych;
