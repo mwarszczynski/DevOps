@@ -1,0 +1,17 @@
+--- # Update and upgr hosts
+
+- name: Update and Upgrade hosts
+  hosts: hosts
+  gather_facts: yes
+  tasks:
+    - name: Run the equivalent of "apt-get update" as a separate step
+      apt:
+        update_cache: yes
+    - name: Update all packages to current version
+      apt:
+        upgrade: dist
+    - name: Remove dependiencies that are no longer req
+      apt:
+        autoremove: yes
+
+  

@@ -1,0 +1,1 @@
+Some exercices with Ansible
