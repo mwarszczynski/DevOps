@@ -1,0 +1,28 @@
+[Info  - 11:21:22 PM] ESLint server stopped.
+[Info  - 11:21:25 PM] ESLint server running in node v10.11.0
+[Info  - 11:21:25 PM] ESLint server is running.
+[Info  - 11:21:32 PM] 
+Failed to load the ESLint library for the document /home/michal/GIT_NOWY/DevOps/1.docker-node-js-mongo-db/server.js
+
+To use ESLint please install eslint by running npm install eslint in the workspace folder DevOps
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn or pnpm instead of npm set the setting `eslint.packageManager` to either `yarn` or `pnpm`
+Alternatively you can disable ESLint for the workspace folder DevOps by executing the 'Disable ESLint' command.
+[Info  - 11:23:15 PM] 
+Failed to load the ESLint library for the document /home/michal/GIT_NOWY/DevOps/1.docker-node-js-mongo-db/package.json
+
+To use ESLint please install eslint by running npm install eslint in the workspace folder DevOps
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn or pnpm instead of npm set the setting `eslint.packageManager` to either `yarn` or `pnpm`
+Alternatively you can disable ESLint for the workspace folder DevOps by executing the 'Disable ESLint' command.
+[Info  - 12:31:51 AM] 
+Failed to load the ESLint library for the document /home/michal/GIT_NOWY/DevOps/1.docker-node-js-mongo-db/node_project/app.js
+
+To use ESLint please install eslint by running npm install eslint in the workspace folder DevOps
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn or pnpm instead of npm set the setting `eslint.packageManager` to either `yarn` or `pnpm`
+Alternatively you can disable ESLint for the workspace folder DevOps by executing the 'Disable ESLint' command.
+[Info  - 12:32:31 AM] ESLint server stopped.

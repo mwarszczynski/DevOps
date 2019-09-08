@@ -1,0 +1,100 @@
+[2019-09-01 23:20:50.171] [exthost] [info] extension host started
+[2019-09-01 23:20:50.242] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:20:50.244] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-09-01 23:20:50.267] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:20:50.269] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-09-01 23:20:50.345] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:20:50.345] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-09-01 23:20:50.742] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:20:50.742] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-09-01 23:20:50.754] [exthost] [info] ExtensionService#_doActivateExtension alefragnani.project-manager {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:20:50.754] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/alefragnani.project-manager-10.6.0/dist/extension
+[2019-09-01 23:20:50.792] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:20:50.792] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/christian-kohler.path-intellisense-1.4.2/out/src/extension
+[2019-09-01 23:20:50.838] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:20:50.838] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2019-09-01 23:20:50.882] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:20:50.882] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/dbaeumer.vscode-eslint-1.9.1/client/out/extension
+[2019-09-01 23:20:50.992] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:20:51.000] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/esbenp.prettier-vscode-2.2.2/out/extension
+[2019-09-01 23:20:51.691] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:20:51.691] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2019-09-01 23:20:51.695] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:20:51.695] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/formulahendry.auto-rename-tag-0.1.0/out/src/extension
+[2019-09-01 23:20:51.698] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:20:51.698] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2019-09-01 23:20:51.748] [exthost] [info] ExtensionService#_doActivateExtension michelemelluso.code-beautifier {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:20:51.748] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/michelemelluso.code-beautifier-2.3.3/out/src/extension
+[2019-09-01 23:20:51.938] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:20:51.938] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/pkief.material-icon-theme-3.9.0/dist/extension
+[2019-09-01 23:20:51.999] [exthost] [info] ExtensionService#_doActivateExtension pranaygp.vscode-css-peek {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:20:52.006] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/pranaygp.vscode-css-peek-3.0.2/out/client/src/extension
+[2019-09-01 23:20:52.081] [exthost] [info] ExtensionService#_doActivateExtension vincaslt.highlight-matching-tag {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:20:52.081] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/vincaslt.highlight-matching-tag-0.9.3/out/src/extension
+[2019-09-01 23:20:52.121] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:20:52.122] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/vscode-icons-team.vscode-icons-9.3.0/dist/src/vscode-icons.bundle.js
+[2019-09-01 23:20:52.495] [exthost] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:20:52.495] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/zignd.html-css-class-completion-1.19.0/out/src/extension
+[2019-09-01 23:20:53.083] [exthost] [info] eager extensions activated
+[2019-09-01 23:21:10.201] [exthost] [info] extension host started
+[2019-09-01 23:21:10.265] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:21:10.265] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-09-01 23:21:10.286] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:21:10.286] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-09-01 23:21:10.318] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:21:10.319] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-09-01 23:21:10.851] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:21:10.852] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-09-01 23:21:10.888] [exthost] [info] ExtensionService#_doActivateExtension alefragnani.project-manager {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:21:10.889] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/alefragnani.project-manager-10.6.0/dist/extension
+[2019-09-01 23:21:10.917] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:21:10.917] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/christian-kohler.path-intellisense-1.4.2/out/src/extension
+[2019-09-01 23:21:10.970] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:21:10.970] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2019-09-01 23:21:11.081] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:21:11.081] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/dbaeumer.vscode-eslint-1.9.1/client/out/extension
+[2019-09-01 23:21:11.373] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:21:11.373] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/esbenp.prettier-vscode-2.2.2/out/extension
+[2019-09-01 23:21:12.546] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:21:12.546] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2019-09-01 23:21:12.556] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:21:12.556] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/formulahendry.auto-rename-tag-0.1.0/out/src/extension
+[2019-09-01 23:21:12.575] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:21:12.575] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2019-09-01 23:21:12.779] [exthost] [info] ExtensionService#_doActivateExtension michelemelluso.code-beautifier {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:21:12.779] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/michelemelluso.code-beautifier-2.3.3/out/src/extension
+[2019-09-01 23:21:12.904] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:21:12.904] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/pkief.material-icon-theme-3.9.0/dist/extension
+[2019-09-01 23:21:12.975] [exthost] [info] ExtensionService#_doActivateExtension pranaygp.vscode-css-peek {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:21:12.975] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/pranaygp.vscode-css-peek-3.0.2/out/client/src/extension
+[2019-09-01 23:21:13.283] [exthost] [info] ExtensionService#_doActivateExtension vincaslt.highlight-matching-tag {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:21:13.283] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/vincaslt.highlight-matching-tag-0.9.3/out/src/extension
+[2019-09-01 23:21:13.334] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:21:13.335] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/vscode-icons-team.vscode-icons-9.3.0/dist/src/vscode-icons.bundle.js
+[2019-09-01 23:21:13.905] [exthost] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"activationEvent":"*"}
+[2019-09-01 23:21:13.905] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/zignd.html-css-class-completion-1.19.0/out/src/extension
+[2019-09-01 23:21:15.236] [exthost] [info] eager extensions activated
+[2019-09-01 23:21:22.242] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-09-01 23:21:22.242] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-09-01 23:21:22.373] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.jshint {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-09-01 23:21:22.373] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/dbaeumer.jshint-0.10.21/jshint/out/extension
+[2019-09-01 23:21:22.734] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-09-01 23:21:22.734] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/ecmel.vscode-html-css-0.2.3/dist/extension
+[2019-09-01 23:21:23.394] [exthost] [info] ExtensionService#_doActivateExtension lonefy.vscode-JS-CSS-HTML-formatter {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-09-01 23:21:23.394] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/lonefy.vscode-js-css-html-formatter-0.2.3/out/src/extension
+[2019-09-01 23:21:23.456] [exthost] [info] ExtensionService#_doActivateExtension mgmcdermott.vscode-language-babel {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-09-01 23:21:23.456] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/mgmcdermott.vscode-language-babel-0.0.23/dist/extension
+[2019-09-01 23:23:03.574] [exthost] [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker {"startup":false,"activationEvent":"onLanguage:dockerfile"}
+[2019-09-01 23:23:03.575] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/ms-azuretools.vscode-docker-0.7.0/main
+[2019-09-01 23:23:14.949] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-09-01 23:23:14.949] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2019-09-01 23:23:14.958] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-09-01 23:23:14.959] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-09-01 23:23:15.033] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-09-01 23:23:15.033] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-09-01 23:23:15.111] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-09-01 23:23:15.111] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/npm/dist/main
+[2019-09-01 23:23:15.126] [exthost] [info] ExtensionService#_doActivateExtension eg2.vscode-npm-script {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-09-01 23:23:15.126] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/eg2.vscode-npm-script-0.3.8/dist/extension
+[2019-09-01 23:23:15.133] [exthost] [info] ExtensionService#_doActivateExtension nickdemayo.vscode-json-editor {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-09-01 23:23:15.133] [exthost] [info] ExtensionService#loadCommonJSModule /home/michal/.vscode/extensions/nickdemayo.vscode-json-editor-0.2.3/out/src/extension

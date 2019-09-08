@@ -1,6 +1,11 @@
 # DevOps Projects
 
 ## Main project 1
+A project i invented, which i am gradually developing step by step (picture below).
+
+![Own_big_project](https://user-images.githubusercontent.com/23153433/64229533-4eba1d80-ceea-11e9-919a-7ca654387296.jpg)
+
+## Main project 2
 Stworzenie architektury dla naszej aplikacji utworzonej w ramach przedmiotu przetwarzanie równoległe;
 Architektura prosta z wykorzystaniem wielu popularnych obecnie serwisów;
 Stworzenie klastra bazy danych;
@@ -22,7 +27,9 @@ Bazę mysql 5.7 z podstawową konfiguracją oraz hasłem root: KrolKarolK0ral3;
 Kontener z php-myadmin w celu wglądu do bazy danych;
 Wolumen /var/lib/mysql ma być osobnym fs stworzonym w LVM;
 Baza danych musi być w sieci secure;
-Kontener dla frontendu z NodeJS;   -------------- ZDJECIE W WORDZIE ---------------
+Kontener dla frontendu z NodeJS;  
+
+![devOps_project2](https://user-images.githubusercontent.com/23153433/64229061-02baa900-cee9-11e9-8c54-02e977bcb01b.jpg)
 
 **Exercise_3** - Stwórz plik docker-compose.yml, który:
 budować będzie obraz NGINX z Dockerfile;
@@ -42,4 +49,6 @@ Dla chętnych -> skonfigurować SSL - certyfikat self-signed wystarczy :)
 Dla chętnych: postawić do klastra scylla manager’a do monitorowania wydajności klastra i udostępnić serwis na porcie 80 dla localhosta (https://docs.scylladb.com/operating-scylla/manager/1.3/run-in-docker/)
 
 
-**Exercise_5** -
+**An outline of my skills**
+![Skills_RoadMap](https://user-images.githubusercontent.com/23153433/64229621-8fb23200-ceea-11e9-9752-fe3c11fad893.JPG)
+
